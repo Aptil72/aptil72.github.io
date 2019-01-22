@@ -1,0 +1,73 @@
+html,body,div {
+	
+	background-image: url("4.png");
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+	
+footer {
+   text-align: center;
+   margin-top : 5px;
+  
+}
+footer a:link {
+	color: goldenrod;
+	font-weight:bold;
+	 
+}
+p.size {
+	font-weight:bold;
+}
+
+
+	form 
+{
+	width:500px;
+	margin:auto;
+	padding:20px;
+	background:black;
+	font-size:20px;
+	font-family:verdana;
+	color:white;
+}
+
+select
+{
+	padding:5px;
+	font-size:18px;
+	background:black;
+}
+.align {
+	text-align: center;
+	  color:white;
+}
+
+#page_footer {
+
+  background: black;
+  color: #fff;
+  text-align: center; 
+  }
+  
+p.style {
+	font-size: 12px;
+	color: white;
+}
+table.design
+{
+	-moz-border-radius: 5px; 
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	width: 100%; 
+	border: 0; 
+	background: #CC2B12;
+}
+label.name {
+	font-size: 10px;
+	color: #CC2B12;
+	text-align: center;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Degree to Farenheit</title>
+		<link rel="stylesheet" type="text/css" href="tempt.css">
+	</head>
+	<body>
+		<div id="page_wrap">
+		<form>
+			<table class="design">
+			<tr>
+				<td class="align"><label for="name"><b>Temperature Converter</label></td>
+			</tr>
+			</table>
+			<br>
+			<hr>
+			<p class="style">Type value in field to convert from Fahrenheit to Celsius & Kelvin and vice-a-versa:</p>
+			<p>
+				<label>Fahrenheit :</label>
+				<input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="farToCelToKel(this.value)" onchange="farToCelToKel(this.value)">
+			</p>
+			<p>
+				<label>Celsius :</label>
+				<input id="inputCelsius" type="number" placeholder="Celsius" oninput="celToFarToKel(this.value)" onchange="celToFarToKel(this.value)">
+			</p>
+			<p>
+				<label>Kelvin :</label>
+				<input id="inputKelvin" type="number" placeholder="Kelvin" oninput="kelToFarToCel(this.value)" onchange="kelToFarToCel(this.value)">
+			</p>
+  
+			<button onclick="clearVal()">Clear</button>
+			<hr>
+			<label class="name">copyright 2018:Amruta</label>
+
+		</form>
+	</div>
+	<footer>
+<br><br><br><br><br><br>
+    <a href="https://amrutapatil1720.github.io/" id="box_1">
+      Home
+    </a>
+    <a href="https://github.com/amrutapatil1720/" id="box_2">
+      Github
+    </a>
+	<p class="size">Created By : Amruta Patil</p>
+  <p class="size">contact Information: <a href ="mailto:amrutapatil1720@gmail.com">amrutapatil1720@gmail.com</a></p><br><br>
+  </footer>
+  <!--<script type="text/javascript" src="temp.js"></script>-->
+
+	<script src="converter.js"></script>
+	</body>
+</html>
+
